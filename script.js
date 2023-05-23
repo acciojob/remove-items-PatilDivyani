@@ -11,8 +11,8 @@ function removeColor() {
 	//Reomve the color
 	for (let i = 0; i < selectElement.length; i++) {
 		if(selectElement.children[i].value===selectedColor){
-            console.log("Item to be removed:" + selectElement.children[i].value)
-			// selectElement.children[i].remove();
+           // console.log("Item to be removed:" + selectElement.children[i].value)
+			 selectElement.children[i].remove();
 			break;
 		}
 	}	
